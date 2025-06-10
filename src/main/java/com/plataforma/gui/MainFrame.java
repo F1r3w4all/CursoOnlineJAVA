@@ -32,11 +32,11 @@ public class MainFrame extends JFrame {
         
         // Criar abas
         tabbedPane = new JTabbedPane();
-        tabbedPane.addTab("👥 Alunos", alunoPanel);
-        tabbedPane.addTab("📚 Cursos", cursoPanel);
-        tabbedPane.addTab("📝 Matrículas", matriculaPanel);
-        tabbedPane.addTab("⭐ Avaliações", avaliacaoPanel);
-        tabbedPane.addTab("📊 Relatórios", relatorioPanel);
+        tabbedPane.addTab(" Alunos", alunoPanel);
+        tabbedPane.addTab(" Cursos", cursoPanel);
+        tabbedPane.addTab(" Matrículas", matriculaPanel);
+        tabbedPane.addTab(" Avaliações", avaliacaoPanel);
+        tabbedPane.addTab(" Relatórios", relatorioPanel);
     }
     
     private void setupLayout() {
@@ -52,7 +52,7 @@ public class MainFrame extends JFrame {
         titleLabel.setForeground(Color.WHITE);
         titleLabel.setHorizontalAlignment(SwingConstants.CENTER);
         
-        JLabel subtitleLabel = new JLabel("Sistema Completo de Gestão Acadêmica");
+        JLabel subtitleLabel = new JLabel("Sistema de Gestão Acadêmica");
         subtitleLabel.setFont(new Font("Arial", Font.PLAIN, 14));
         subtitleLabel.setForeground(Color.WHITE);
         subtitleLabel.setHorizontalAlignment(SwingConstants.CENTER);
@@ -69,7 +69,7 @@ public class MainFrame extends JFrame {
         footerPanel.setBackground(new Color(44, 62, 80));
         footerPanel.setPreferredSize(new Dimension(0, 35));
         
-        JLabel footerLabel = new JLabel("Sistema de Gestão de Cursos - v2.0 | Arquitetura: MVC + DAO + Service");
+        JLabel footerLabel = new JLabel("Sistema de Gestão de Cursos Ambiente de Dados PROF. Pedro Pinheiro");
         footerLabel.setForeground(Color.WHITE);
         footerLabel.setFont(new Font("Arial", Font.PLAIN, 12));
         

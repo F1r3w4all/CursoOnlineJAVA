@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DatabaseConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/plataforma_cursosv2";
     private static final String USER = "root";
-    private static final String PASSWORD = "121004"; // Altere conforme sua configuração
+    private static final String PASSWORD = "1234"; // COlE SUA SENHA AQUI Prit para formulario
     
     private static Connection connection = null;
     
